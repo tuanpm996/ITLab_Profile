@@ -1,0 +1,43 @@
+a, a:hover{
+	color: gray;
+}
+a:link{
+	text-decoration: none;
+}
+.bg-white{
+	background-color: white;
+}
+.btn-black{
+	background-color: black;
+}
+.text-gray{
+	color: gray;
+}
+.text-size-13px{
+	font-size: 13px;
+}
+.img-thumbnail{
+	height: 250px;
+}
+.img-config{
+	position: relative;
+}
+.img-config:hover{
+	opacity: 0.5;
+	transition-duration: 1.5s;
+}
+.choose-select{
+	position: absolute;
+	font-size: 20px;
+	color: black;
+	display: none;
+	bottom: 10px;
+	left: 25px;
+}
+.img-config:hover .choose-select{
+	transition-duration: 1.5s;
+	display: block;
+}
+.socialnet{
+	margin-top: 10px;
+}
